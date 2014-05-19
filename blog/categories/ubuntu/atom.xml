@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[SatoHiroyuki's Blog]]></title>
-  <link href="http://SatoHiroyuki.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Ubuntu | SatoHiroyuki's Blog]]></title>
+  <link href="http://SatoHiroyuki.github.io/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://SatoHiroyuki.github.io/"/>
   <updated>2014-05-19T23:20:10+09:00</updated>
   <id>http://SatoHiroyuki.github.io/</id>
@@ -18,15 +18,6 @@
     <link href="http://SatoHiroyuki.github.io/blog/2014/05/19/test/"/>
     <updated>2014-05-19T23:17:07+09:00</updated>
     <id>http://SatoHiroyuki.github.io/blog/2014/05/19/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[]]></title>
-    <link href="http://SatoHiroyuki.github.io/blog/2014/05/16/"/>
-    <updated>2014-05-16T22:11:52+09:00</updated>
-    <id>http://SatoHiroyuki.github.io/blog/2014/05/</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
