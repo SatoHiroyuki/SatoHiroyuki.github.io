@@ -4,7 +4,7 @@
   <title><![CDATA[SatoHiroyuki's Blog]]></title>
   <link href="http://SatoHiroyuki.github.io/atom.xml" rel="self"/>
   <link href="http://SatoHiroyuki.github.io/"/>
-  <updated>2014-07-16T16:54:27+09:00</updated>
+  <updated>2014-07-16T16:56:42+09:00</updated>
   <id>http://SatoHiroyuki.github.io/</id>
   <author>
     <name><![CDATA[Sato]]></name>
@@ -50,6 +50,14 @@
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post['post title']</span></code></pre></td></tr></table></div></figure>
+
+
+<p>確認してコミット</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
 
 
 <p><code>
