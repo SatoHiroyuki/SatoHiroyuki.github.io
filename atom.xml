@@ -4,7 +4,7 @@
   <title><![CDATA[SatoHiroyuki's Blog]]></title>
   <link href="http://SatoHiroyuki.github.io/atom.xml" rel="self"/>
   <link href="http://SatoHiroyuki.github.io/"/>
-  <updated>2014-05-19T23:24:15+09:00</updated>
+  <updated>2014-07-16T16:54:27+09:00</updated>
   <id>http://SatoHiroyuki.github.io/</id>
   <author>
     <name><![CDATA[Sato]]></name>
@@ -12,5 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Install]]></title>
+    <link href="http://SatoHiroyuki.github.io/blog/2014/07/16/start/"/>
+    <updated>2014-07-16T15:35:15+09:00</updated>
+    <id>http://SatoHiroyuki.github.io/blog/2014/07/16/start</id>
+    <content type="html"><![CDATA[<p>インストール方法</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>apt-get update
+</span><span class='line'>sudo apt-get install gcc+ git
+</span><span class='line'>sudo apt-get install ruby
+</span><span class='line'>sudo gem install RedCloth -v '4.2.9'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Octopress インストール</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>cd octopress/
+</span><span class='line'>gem install bundler
+</span><span class='line'>bundle install
+</span><span class='line'>rake install
+</span><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>記事の投稿</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post['post title']</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>
+</code></p>
+]]></content>
+  </entry>
   
 </feed>
